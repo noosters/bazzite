@@ -13,6 +13,7 @@ cp -avf "/ctx/system_files"/. /
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
+dnf5 install -y cosign
 dnf5 remove -y rom-properties rom-properties-common rom-properties-gtk4 rom-properties-localsearch rom-properties-utils
 
 # Use a COPR Example:
